@@ -1,1 +1,25 @@
+# Virtual environment
 venv/
+.env
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Qdrant and data storage
+qdrant_storage/
+
+# Project data directory
+/data/
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Misc
+.DS_Store
